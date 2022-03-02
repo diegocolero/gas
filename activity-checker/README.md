@@ -22,7 +22,8 @@ All info about it can found here [Get Started](https://developers.google.com/dri
 ## Documentation
 
 [Drive Activity API](https://developers.google.com/drive/activity/v2/reference/rest/v2/activity/driveactivity)
+[Class MailAPP](https://developers.google.com/apps-script/reference/mail/mail-app)
 
 ## Uses
 
-I already have some script like this executed with GAS triggers. Normally set every 30 minutes
+I already have some script like this executed with GAS triggers. Normally set every 30 minutes but you can set every minute.
