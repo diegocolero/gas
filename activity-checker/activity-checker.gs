@@ -7,7 +7,6 @@ const ADMIN_MAIL= '';
 
 /**
  * Lists all activies for RRSS Santa Marta.
- * Coment sendEmail()
  */
 function listDriveActivity() {
   const lastExec = getLastExec();
@@ -42,7 +41,7 @@ function listDriveActivity() {
       }
     }
     setExec();
-    //sendEmail(body);
+    sendEmail(body);
   } catch (err) {
     // TODO (developer) - Handle error from drive activity API
     Logger.log('Failed with an error %s', err.message);
