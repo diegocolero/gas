@@ -28,6 +28,7 @@ First time you execute this script you need execute `setExec` function for set a
 ## Documentation
 
 [Drive Activity API](https://developers.google.com/drive/activity/v2/reference/rest/v2/activity/driveactivity)
+
 [Class MailAPP](https://developers.google.com/apps-script/reference/mail/mail-app)
 
 ## Uses
