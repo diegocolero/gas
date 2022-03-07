@@ -21,7 +21,7 @@ Do you need a Google Account and follow Google instructions about activate and i
 All info about it can found here [Get Started](https://developers.google.com/drive/activity/v2#getting_started)
 
 **Important**
-First time you execute this script you need execute `setExec` function
+First time you execute this script you need execute `setExec` function for set permission to app
 
 ![image](https://user-images.githubusercontent.com/48905875/156349270-9d8200d8-3c42-4a8e-93cf-2921fb1016fb.png)
 
