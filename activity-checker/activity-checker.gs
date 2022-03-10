@@ -26,7 +26,7 @@ function listDriveActivity() {
     }
     Logger.log('Found activity:');
     body = (activities.length == 1) ? "Upload new file.\n" :
-      "Uploaded "+activities.length+" new archives.\n";
+      "Uploaded "+activities.length+" new files.\n";
     for (let i = 0; i < activities.length; i++) {
       const activity = activities[i];
       // get time information of activity.
