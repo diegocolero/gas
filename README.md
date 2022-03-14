@@ -1,5 +1,5 @@
 # gas
-Projects in [https://developers.google.com/apps-script](Google Apps Script)
+Projects in [Google Apps Script](https://developers.google.com/apps-script)
 
 # To do
 - Upload new version for Activity-Checker
