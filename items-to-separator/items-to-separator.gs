@@ -19,7 +19,7 @@ function getSeparator() {
 
 function getItems() {
   var items;
-  if(sheetI.getLastRow() == 2){
+  if(sheetI.getLastRow() <= 2){
     return null
   }
   items = sheetI.getRange(2, 1, sheetI.getLastRow()-1).getValues();
