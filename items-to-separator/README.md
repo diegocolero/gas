@@ -4,8 +4,8 @@
 
 ## Installation
 
-![Installation](https://user-images.githubusercontent.com/48905875/158554288-868b5da3-be58-4f5a-8f54-4ce3520609a7.png)
-
+If you want the copy for your Google Drive, you need google account.
+[Here](https://docs.google.com/spreadsheets/d/1UG8rjZ6fWOdupRlwUbYjLbLjGGPBN2vxaH6bcSB_-Bk/copy) is the link with a copy with complete file and script linked
 
 ## Functionality
 
