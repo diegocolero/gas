@@ -12,3 +12,4 @@ If you want the copy for your Google Drive, you need google account.
 
 - Adding custom menu to SpreadSheet menu
 - Custom separator (You can type anything)
+- Error message when input are empty
