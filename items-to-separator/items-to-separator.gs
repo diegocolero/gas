@@ -1,6 +1,7 @@
 const sheet = '';
 const SS = SpreadsheetApp.openById(sheet);
 const ui = SpreadsheetApp.getUi();
+// Those names can be changed 'items'|'separator'
 const sheetI = SS.getSheetByName('items');
 const sheetS = SS.getSheetByName('separator');
 
