@@ -9,3 +9,17 @@ Here is a script for organize folders in published and unpublished by year. I ma
 First folder `PUB_FOLDER` which been base folder for our structure follows to year folder follow for two folder "published" and "unpublished". Those two folder can have custom name.
 
 ![folder_structure](https://user-images.githubusercontent.com/48905875/159897228-d1d3292f-d1d9-4663-a1d9-beab093c8917.png)
+
+We will need the "root" folder which is `PUB_FOLDER`, inside we have any folder with year for name and inside each year folder we have "published" and "unpublished" folder. Main process is move folder from "unpublished" folder to year folder with time between date we specify in code:
+```bash
+const mToPubl = new Date();
+mToPubl.setDate(dayNow - 2);
+
+const mToYear = new Date();
+mToYear.setDate(dayNow + 2);
+```
+in this case will be 2 days after and before from date in folder name.
+
+Folders inside "unpublished" and "published" folders must name like this: "MM-dd folder_name" being MM for month in 2 digit format and dd days in 2 digit format
+
+**Examples:** 01-23 Name1 | 12-03 Name2 | 06-29 Name3
