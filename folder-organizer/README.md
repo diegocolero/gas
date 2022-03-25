@@ -23,3 +23,6 @@ in this case will be 2 days after and before from date in folder name.
 Folders inside "unpublished" and "published" folders must name like this: "MM-dd folder_name" being MM for month in 2 digit format and dd days in 2 digit format
 
 **Examples:** 01-23 Name1 | 12-03 Name2 | 06-29 Name3
+
+## Script track explication
+
