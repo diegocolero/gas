@@ -6,10 +6,10 @@ const monthNow = new Date().getMonth() + 1;
 const dayNow = new Date().getDate();
 
 const mToPubl = new Date();
-mToPubl.setDate(dayNow - 2);
+mToPubl.setDate(dayNow - 2); //Custom days to move
 
 const mToYear = new Date();
-mToYear.setDate(dayNow + 2);
+mToYear.setDate(dayNow + 2); //Custom days to move
 
 /**
  * Global action 
