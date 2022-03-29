@@ -26,5 +26,6 @@ Folders inside "unpublished" and "published" folders must name like this: "MM-dd
 
 ## Script track explication
 
-To do
--
+To start, create a new folder in your Google Drive. Inside, create some folder with year (mandatory actual year), then inside create two more folder for "published" and "unpublished", those name can be custom.
+
+No get the Folder ID from first folder you created (Root folder), and paste into Google Apps Script at `PUB_FOLDER` variable. Then, set the name for your folder into `F_PUBL` and `F_UNPL` variables.
