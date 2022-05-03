@@ -25,21 +25,25 @@ function listDriveActivity() {
       return;
     }
     Logger.log('Found activity:');
-    body = (activities.length == 1) ? "Upload new file.\n" :
-      "Uploaded "+activities.length+" new files.\n";
+    body += HtmlService.createHtmlOutputFromFile("message_header")
+                       .getContent();
     for (let i = 0; i < activities.length; i++) {
+      body += "<tr>"
       const activity = activities[i];
       // get time information of activity.
-      if (getActionInfo(activity.primaryActionDetail) == 'create') {
-        const time = getTimeInfo(activity);
-        // get the action details/information
-        const actors = activity.actors.map(getActorInfo);
-        // get target information of activity.
-        const targets = activity.targets.map(getTargetInfo);
-        // print the time,actor,action and targets of drive activity.
-        body += time+": "+actors+", "+targets+ "\n";
-      }
+      const time = getTimeInfo(activity);
+      // get the action details/information
+      const actors = activity.actors.map(getActorInfo);
+      // get target information of activity.
+      const targets = activity.targets.map(getTargetInfo);
+      // print the time,actor,action and targets of drive activity.
+      const type = getOneOf(activity.primaryActionDetail);
+      //body += "Fecha: "+time+" - Acción: "+type+"\t Archivo: "+targets[0].split("driveItem:")[1]+"\n";
+      body += "<td>" + time + "</td><td>" + type + "</td><td>" + targets[0].split("\"")[1] + "</td>"
+      body += "</tr>"
     }
+    body += HtmlService.createHtmlOutputFromFile("message_footer")
+                       .getContent();
     setExec();
     sendEmail(body);
   } catch (err) {
