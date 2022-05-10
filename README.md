@@ -6,3 +6,7 @@ Projects in [Google Apps Script](https://developers.google.com/apps-script)
 - Upload Vote-App
 - Learn and test SurveyJs into GAS
 - Read about new vue features
+  
+ # Personal
+  
+  Work in portfolio/personal web
